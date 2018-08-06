@@ -1,0 +1,26 @@
+@charset "utf-8";
+* { margin:0px; padding:0px;}
+body{font-size:12px;font-family:"宋体","Microsoft YaHei","微软雅黑"; color:#000;}
+ul,ol{ list-style-type:none;}
+li{list-style:none;}
+a{ cursor:pointer;text-decoration:none; color:#000;}
+a:hover{color:#ee135b;}
+.fl{ float:left;}
+.fr{ float:right;}
+.h30{ height:30px;}
+.h20{ height:20px;}
+.h50{ height: 25px;}
+.h35{ height:35px;}
+.h10{ height:10px;}
+.mr10{ margin-right:10px;}
+.mb10{ margin-bottom:10px;}
+.mb15{ margin-bottom:15px;}
+.mb20{ margin-bottom:20px;}
+.textr{ text-align:right;}
+.textl{ text-align:left;}
+img,input{border:0;}
+.gray{color:#aaa;}
+.red {color: #ee135b;}
+.wid{ width:1100px; margin-left:auto; margin-right:auto; overflow:hidden;}
+.wid100{ width:1020px; margin-left:auto; margin-right:auto;}
+.header{ background:#ee135b; height:30px; line-height:30px; color:#fff;}

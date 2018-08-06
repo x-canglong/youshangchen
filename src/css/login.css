@@ -1,0 +1,28 @@
+.logintt {
+    padding: 10px 0 0;
+    font: normal 24px/30px "微软雅黑";
+    color: #ee135b;
+}
+.wid100 {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+	padding-top: 20px;
+	margin-bottom: 450px;
+}
+.loginleft{
+	float: left;
+	width: 602px;
+	height: 412px;
+	border: 1px solid #cecece;
+	background: url(../img/1412809917944976564.jpg) no-repeat;
+}
+.loginright{
+	float: right;
+	
+	width: 382px;
+	height: 412px;
+	border: 1px solid #cecece;
+}

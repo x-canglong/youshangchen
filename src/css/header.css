@@ -1,0 +1,295 @@
+.header .cont {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topmenu {
+	float: right;
+	width: 625px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.topmenu li {
+	float: left;
+	position: relative;
+}
+
+.topmenu li a {
+	color: #fff;
+	padding: 0 5px;
+}
+
+.topmenu li a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.topmenu strong {
+	display: block;
+	position: relative;
+	height: 30px;
+	padding: 0 10px;
+	font-weight: normal;
+	cursor: pointer;
+	z-index: 200;
+}
+
+.topmenu .jq_hidebox {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	border: 1px solid #dfdfdf;
+	background: #fff;
+	z-index: 999;
+}
+
+.topmenu li.hover strong {
+	border: 1px solid #dfdfdf;
+	border-bottom: none;
+	background-color: #fff;
+	color: #000;
+}
+
+.topmenu li.hover {
+	margin: -1px -1px 0 -1px;
+}
+
+.topmenu li.weixin {
+	_width: 66px;
+}
+
+.topmenu li.webnav {
+	_width: 83px;
+}
+
+.topmenu li.webnav .jq_hidebox {
+	width: 80px;
+	left: 0px;
+}
+
+.topmenu li.webnav .jq_hidebox a {
+	color: #666;
+	width: 80px;
+	text-align: center;
+}
+
+.topmenu li.nojq {
+	margin: 0;
+	background: none;
+}
+
+.topmenu .focusht {
+	display: block;
+	width: 155px;
+	height: 50px;
+	background-position: 0 -106px;
+	text-indent: -100em;
+	overflow: hidden;
+}
+
+.topmenu .wxht {
+	height: 86px;
+	width: 86px;
+	padding: 5px;
+	background: url(./../img/wxewm.jpg) no-repeat center center;
+}
+
+.topmenu .wxht2 {
+	height: 86px;
+	width: 86px;
+	padding: 5px;
+	
+}
+
+.topmenu .wxht span,
+.topmenu .wxht2 span {
+	display: inline-block;
+	padding-top: 3px;
+	color: #666;
+}
+
+.aSty01 {
+	margin: 0;
+}
+
+.aSty01 dt {
+	margin-top: 6px;
+	padding: 5px 0 2px 0;
+	border-top: 1px solid #e5e5e5;
+}
+
+.aSty01 dd {
+	margin: 0;
+}
+
+.aSty01 dd a {
+	color: #666;
+}
+
+.aSty01 dd a:hover {
+	color: #c00;
+}
+
+
+
+.xmh-top {
+	height: 111px;
+	background: #fff6fb;
+	border-bottom: #ffd7ed 1px solid;
+	padding-top: 20px;
+}
+
+.xmh-top .logo {
+	padding-top: 5px;
+}
+
+.nav {
+	width: 540px;
+	padding-left: 80px;
+}
+
+.nav ul li {
+	width: 90px;
+	float: left;
+	text-align: center;
+	font: bold 17px/90px "微软雅黑";
+}
+
+.nav ul li a {
+	color: #59493f;
+}
+
+.nav ul li a:hover,
+.nav .current {
+	color: #ee135b;
+}
+
+.index_banner {
+	/*background: url(../images/indexbanbg.jpg) no-repeat center top;*/
+	height: 500px;
+}
+
+.index_banner .banners {
+	height: 500px;
+	overflow: hidden;
+}
+
+.nav_parent {
+	Z-INDEX: 9999;
+	POSITION: relative;
+	WIDTH: 120px;
+	FLOAT: left;
+	text-align: center;
+	color: #fff;
+	margin-left: 2px;
+}
+
+.nav_parent .toplink {
+	TEXT-ALIGN: center;
+	WIDTH: 120px;
+	DISPLAY: block;
+	HEIGHT: 38px;
+	font: normal 16px/38px "微软雅黑";
+	color: #fff;
+}
+
+.nav_parent .on,
+.nav_parent .toplink:hover {
+	/*background: url(../images/navlih01.jpg) no-repeat center top;*/
+	COLOR: #fff;
+}
+
+.nav_parent .ahover {
+	/*background: url(../images/navlih01.jpg) no-repeat center bottom;*/
+	COLOR: #fff
+}
+
+.sub_con {
+	POSITION: absolute;
+	DISPLAY: none;
+	/*BACKGROUND: url(../images/navhbg.png) repeat;*/
+	top: 38px;
+	z-index: 9999;
+	width: 120px;
+	left: 0px;
+	padding: 5px 0;
+	overflow: hidden;
+}
+
+.sub_con p {
+	font: normal 12px/28px "微软雅黑";
+	width: 120px;
+}
+
+.sub_con p a {
+	color: #fff;
+}
+
+.sub_con p a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/*搜索*/
+
+.top-search {
+	width: 270px;
+	padding-top: 20px;
+}
+
+.top-search .seatch_tx {
+	width: 220px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.search_btn {
+	float: left;
+	width: 40px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.search {
+	margin-bottom: 5px;
+}
+
+.search .text {
+	width: 220px;
+	height: 26px;
+	background: #fff;
+	border: #ee135b 2px solid;
+	line-height: 26px;
+}
+
+.search .button {
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	background: #ee135b;
+	color: #fff;
+	cursor: pointer;
+}
+
+.hot_search {
+	color: #ee135b;
+}
+
+.hot_search a {
+	margin-right: 5px;
+	color: #999;
+}
+
+.hot_search a:hover {
+	color: #ee135b;
+}
+.xmh-logo{
+	width: 155px;
+	height: 65px;
+	background: url(../img/logo.jpg) no-repeat;
+}

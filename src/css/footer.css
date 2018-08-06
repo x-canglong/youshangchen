@@ -1,0 +1,126 @@
+.footer-xmh {
+	border-bottom: #ccc 1px solid;
+	font-family: "微软雅黑";
+}
+
+.footer-xmh,
+.b_menu {
+	background: #f7f7f7;
+	padding: 20px 0;
+}
+
+.footer-xmh .ewm img {
+	width: 86px;
+	height: 86px;
+	border: #ddd 1px solid;
+	margin-bottom: 5px;
+}
+
+.footer-xmh .ewm {
+	text-align: center;
+	line-height: 1.6;
+	padding-right: 30px;
+	font-size: 12px;
+}
+
+.explain {
+	padding-right: 15px;
+}
+
+.explain ul li {
+	width: 140px;
+	float: left;
+	text-align: center;
+	font: bold 14px/22px "微软雅黑";
+	padding-top: 68px;
+}
+.explain ul li a {
+	color: ;
+}
+.explain ul li span {
+	font: normal 12px/18px "微软雅黑";
+	color: #666;
+}
+
+.explain .zheng {
+	background: url(../img/zheng.jpg) no-repeat center top;
+}
+
+.explain .nuo {
+	background: url(../img/cheng.jpg) no-repeat center top;
+}
+
+.explain .guan {
+	background: url(../img/guan.jpg) no-repeat center top;
+}
+
+.explain .tui {
+	background: url(../img/7.jpg) no-repeat center top;
+}
+
+.explain .hours {
+	background: url(../img/hours.jpg) no-repeat center top;
+}
+
+.b_menu dl {
+	float: left;
+	width: 110px;
+	padding-left: 35px;
+	margin-left: 35px;
+}
+
+.b_menu dl dt {
+	font: bold 14px/26px "宋体";
+}
+
+.b_menu dl dd {
+	line-height: 22px;
+	font: normal 12px/22px "宋体";
+}
+
+.b_menu dl dd a {
+	color: #666;
+}
+
+.b_menu dl dd a:hover {
+	text-decoration: underline;
+	color: #ee135b;
+}
+
+.b_menu .zhinan {
+	background: url(../img/zhinan.jpg) no-repeat left top;
+}
+
+.b_menu .peisong {
+	background: url(../img/peisong.jpg) no-repeat left top;
+}
+
+.b_menu .shouhou {
+	background: url(../img/shouhou.jpg) no-repeat left top;
+}
+
+.b_menu .hy_zhengce {
+	background: url(../img/hy_zhengce.jpg) no-repeat left top;
+}
+
+.b_menu .ps_fangshi {
+	background: url(../img/ps_fangshi.jpg) no-repeat left top;
+}
+
+.b_menu .zs_daili {
+	background: url(../img/zs_daili.jpg) no-repeat left top;
+}
+
+.copyright {
+	background: #f7f7f7;
+	text-align: center;
+	border-top: #353535 5px solid;
+	padding: 25px 0;
+}
+
+.copyright p {
+	font-size: 14px;
+	line-height: 1.6;
+	color: #666;
+	margin-bottom: 5px;
+}
