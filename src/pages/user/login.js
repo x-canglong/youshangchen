@@ -16,6 +16,7 @@ class NormalLoginForm extends React.Component{
 		super(props)
 	}
 	handleSubmit = (e) => {
+		var _this=this;
 	    e.preventDefault();
 	    this.props.form.validateFields((err, values) => {
 	      if (!err) {
@@ -35,7 +36,10 @@ class NormalLoginForm extends React.Component{
 	        			console.log(store.getState().reducer.isLogin)
 	        			alert("登录成功")
 	        			store.dispatch( changeIsLogin(values.userName) )
-	        			this.props.history.push('/user')
+//	        			_this.props.match.params('/user')
+//	        			console.log(_this.props.match.params('/user'))
+						window.location.href="/user"
+						localStorage.isLogin=store.getState().reducer.isLogin;
 	        			console.log(store.getState().reducer.isLogin)
 	        		}
 	        	}

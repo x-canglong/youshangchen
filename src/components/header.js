@@ -4,26 +4,60 @@ import '@/css/header.css'
 class Header extends React.Component{
 	constructor(props){
 		super(props)
+		this.state={
+			isLogin:false,
+			hydl:{
+				display:"none"
+			},
+			hydl1:{
+				display:"block"
+			}
+		}
+	}
+	logout(){
+		localStorage.isLogin=0;
+		/*this.setState({
+			isLogin:false
+		})*/
+	}
+	componentDidMount(){
+		if(localStorage.isLogin>0){
+			this.setState({
+				isLogin:localStorage.isLogin
+			})
+		}else{
+			//this.setState({
+				/*hydl:{
+					display:"block"
+				},
+				hydl1:{
+					display:"none"
+				}*/
+			//})
+		}
 	}
 	render(){
+		var that=this;
 		return(
 			<div>
 				<div className="header">
 				  <div className="cont">
 				    <ul className="topmenu" clearfix="" id="jq_topmenu">
-					    <li> 	<li>
-					欢迎光临优尚臣,请
-					<Link to='/login'>登录</Link>
-					</li>
+					    <li> 	
+					    <li style={that.state.hydl}>欢迎光临优尚臣,请<Link to='/login'>登录</Link></li>
+					    <li style={that.state.hydl1} >
+					    	您好<a href="javascript:;">{that.state.isLogin}</a>
+					    </li>
 				        <li>|</li>
-				        <li><Link to='/register'>注册</Link></li>
+				        <li style={that.state.hydl}><Link to='/register'>注册</Link></li>
+				        <li style={that.state.hydl1}>><a onClick={this.logout()} href="javascript:;">退出</a></li>
 				        <li>|</li>
 				 </li>
 						<li className="webnav" qxpp="" style={{background:'none'}}> 
 						<Link to='/user' className="icon_arr">我的优尚臣</Link>
 				            <div className="jq_hidebox" style={{display: "none"}}>
 							<dl>
-							   <dd> <a href="javascript:;" title="我的订单">我的订单</a></dd>
+							   <dd><a href="javascript:;" title="我的订单">我的订单</a></dd>
 							   <dd><a href="javascript:;" title="我的订单">我的积分</a></dd>
 							   <dd><a href="javascript:;" title="我的订单">我的收藏</a></dd>
 							</dl> </div>

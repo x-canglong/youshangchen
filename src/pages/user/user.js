@@ -8,23 +8,22 @@ class User extends React.Component{
 		super(props)
 	}
 	componentDidMount(){
+		console.log(11111)
 		console.log(store.getState().reducer.isLogin)
-		if(store.getState().reducer.isLogin==false){
+		/*if(store.getState().reducer.isLogin==false){
 			this.props.history.push('/login')
 //			window.location.href='/login'
-		}
+		}*/
 	}
 	render(){
 		return(
 			<div>
 				<Header/>
-				<h1>我的youshangchen</h1>
+				<h1>我的优尚臣</h1>
 				<Footer/>
 			</div>
 		)
 	}
 }
-
-
 
 export default User;

@@ -18,14 +18,10 @@ const RouteConfig = (
             <Route path="/login"  component={login} />
             <Route path="/register" component={register} />
             <Route path="/list" component={list} />
-            <Route path="/detail" component={detail} />
+            <Route path="/detail/:wcode" component={detail} />
             <Route path="/cart" component={cart} />
             <Route path="/user" component={user} />
-            <Route path="/xiadan" component={xiadan} />
-            
-            
-            
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+            <Route path="/xiadan" component={xiadan} />                                                                                                                                                                                                                                                                                                                                                                                                                                        
         </div>
     </Router>
 );

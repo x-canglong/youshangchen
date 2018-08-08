@@ -14,6 +14,7 @@ class NormalLoginForm extends React.Component{
 	    e.preventDefault();
 	    this.props.form.validateFields((err, values) => {
 	      if (!err) {
+	      	
 	        console.log('Received values of form: ', values);
 	      }
 	    });
@@ -68,13 +69,13 @@ class NormalLoginForm extends React.Component{
 					            valuePropName: 'checked',
 					            initialValue: true,
 					          })(
-					            <Checkbox>记住密码</Checkbox>
+					            <Checkbox style={{float:'left'}}>记住密码</Checkbox>
 					          )}
-					          <a className="login-form-forgot" href="">忘记密码</a>
-					          <Button type="primary" htmlType="submit" className="login-form-button">
+					          <a style={{float:'right'}} className="login-form-forgot" href="javascript:;">忘记密码</a>
+					          <Button style={{'margin-top':'10px','width':'100%'}} type="primary" htmlType="submit" className="login-form-button">
 					            注册
 					          </Button>
-					          Or <Link to='/login'>去登录!</Link>
+					         {/*Or <Link to='/login'>去登录!</Link>*/}
 					        </FormItem>
 					      </Form>
 					</div>
